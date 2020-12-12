@@ -9,7 +9,7 @@ body {
     font-size: 13px;
     font-family: arial, sans-seif;
     z-index:9999999;
-    padding-top: 12px;
+    padding-top: 13px;
 
 }
 #left-header-a {
@@ -79,7 +79,7 @@ body {
     justify-content: center;
     align-items: center;
     padding-bottom: 28px;
-    padding-top: 59px;
+    padding-top: 145px;
 
 }
 
@@ -96,7 +96,6 @@ body {
     align-items: bottom;
     justify-items: right;
     grid-area: share;
-    p
 
 
 }
@@ -104,17 +103,41 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
+   
 }
 
+#magnifyingglass {
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    opacity: 0.4;
+    border-width: 1px;
+    display: block;
+   
+
+
+}
 #searchline {
     height: 42px;
-    width: 455px;
+    width: 460px;
     font-size: 15px;
-    border-radius: 15px;
+    border-color: #dfe1e5;
+    opacity: 0.5;
     border-width: 1px;
-    border-color: #70757A;
-    opacity: 0.18;
+    border-radius: 50px;
+    background-color: #fff
 
+}
+
+#microphone {
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-width: 1px;
+    border-color: rgba(200, 200, 200, 0.97);
+    display: block;
+    
 }
 
 .search-buttons {
@@ -122,6 +145,7 @@ body {
     align-items: center;
     justify-content: center;
     padding-top: 27px;
+    
     
 
 }
@@ -170,6 +194,7 @@ body {
     align-items: center;
     font-size: 14px;
     text-decoration: none;
+    color: black;
 }
 
 #footer {
